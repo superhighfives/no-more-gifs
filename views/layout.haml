@@ -1,19 +1,18 @@
 !!!  
 %html  
   %head  
-    %title
-    %meta{:name => "description", :content => ""}
-    %meta{:name => "author", :content => ""}
-    -# %link{:href => "/images/favicon.ico", :rel => "shortcut icon"}
-    -# %link{:href => "/images/apple-touch-icon.png", :rel => "apple-touch-icon"}
+    %title NO MORE GIFS (We get it, okay?)
+    %meta{:name => "description", :content => "Tired of blog after blog of endless gifs? Worry no more, (and Michael Scott) feel your pain."}
+    %meta{:name => "author", :content => "http://charliegleason.com/"}
+    %link{:href => "/images/icons/favicon.ico", :rel => "shortcut icon"}
+    %link{:href => "/images/icons/apple-touch-icon.png", :rel => "apple-touch-icon"}
 
-    -# %meta{:content => "", :property => "og:title"}
-    -# %meta{:content => "", :property => "og:type"}
-    -# %meta{:content => "", :property => "og:description"}
-    -# %meta{:content => "", :property => "og:url"}
-    -# %meta{:content => "", :property => "og:image"}
-    -# %meta{:content => "", :property => "og:site_name"}
-    -# %meta{:content => "", :property => "fb:admins"}
+    %meta{:content => "NO MORE GIFS (We get it, okay?)", :property => "og:title"}
+    %meta{:content => "website", :property => "og:type"}
+    %meta{:content => "Tired of blog after blog of endless gifs? Worry no more, (and Michael Scott) feel your pain.", :property => "og:description"}
+    %meta{:content => "http://nomoregifs.com/", :property => "og:url"}
+    %meta{:content => "http://nomoregifs.com/images/icons/apple-touch-icon.png", :property => "og:image"}
+    %meta{:content => "NO MORE GIFS (We get it, okay?)", :property => "og:site_name"}
 
     %link{:href => "/stylesheets/application.css", :rel => "stylesheet", :type => "text/css"}
     %script{:src => "//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"}
@@ -21,12 +20,9 @@
 
     =yield
 
-    %script{:src => "http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"}
-    %script{:src => "//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"}
-
     :javascript
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-XXXXXX-X']);
+      _gaq.push(['_setAccount', 'UA-21848111-6']);
       _gaq.push(['_trackPageview']);
 
       (function() {
